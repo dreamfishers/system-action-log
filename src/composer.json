@@ -1,0 +1,32 @@
+{
+  "name": "dreamfishers/system-action-log",
+  "description": "A laravel package of ActionLog",
+  "keywords": ["laravel","ActionLog"],
+
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dreamfishers",
+      "email": "dreamfishers@elinkport.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Dreamfishers\\SystemActionLog\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dreamfishers\\SystemActionLog\\ServiceProvider"
+      ],
+      "aliases": {
+        "SystemActionLog": "Dreamfishers\\SystemActionLog\\Facade"
+      }
+    }
+  }
+}
