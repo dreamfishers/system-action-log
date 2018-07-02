@@ -1,4 +1,4 @@
-# action-log
+# system-action-log
 Laravel 5 操作日志自动记录
 
 
@@ -12,7 +12,7 @@ project's `composer.json`.
 {
     "require": {
        
-        "luoyangpeng/action-log": "dev-master"
+        "dreamfishers/system-action-log": "dev-master"
     },
    
 }
@@ -22,7 +22,7 @@ or
 
 Require this package with composer:
 ```
-composer require luoyangpeng/action-log dev-master
+composer require dreamfishers/system-action-log
 ```
 
 Update your packages with ```composer update``` or install with ```composer install```.
