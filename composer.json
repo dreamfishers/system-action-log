@@ -25,7 +25,7 @@
         "Dreamfishers\\SystemActionLog\\ServiceProvider"
       ],
       "aliases": {
-        "SystemActionLog": "Dreamfishers\\SystemActionLog\\Facade"
+        "ActionLog": "Dreamfishers\\SystemActionLog\\Facade"
       }
     }
   }
