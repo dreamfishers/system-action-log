@@ -5,10 +5,12 @@ namespace Dreamfishers\SystemActionLog\Facades;
 use Illuminate\Support\Facades\Facade as LaravelFacade;
 
 
-class Facade extends LaravelFacade {
+class Facade extends LaravelFacade
+{
 
 
-    protected static function getFacadeAccessor(){
-        return 'ActionLog';
-    }
+  protected static function getFacadeAccessor()
+  {
+    return 'ActionLog';
+  }
 }
