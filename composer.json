@@ -22,10 +22,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Dreamfishers\\SystemActionLog\\ServiceProvider"
+        "Dreamfishers\\SystemActionLog\\Services\\ServiceProvider"
       ],
       "aliases": {
-        "ActionLog": "Dreamfishers\\SystemActionLog\\Facades"
+        "ActionLog": "Dreamfishers\\SystemActionLog\\Facades\\Facade"
       }
     }
   }
