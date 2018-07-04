@@ -15,7 +15,7 @@ class ActionLogRepository
    * @param ActionLog $actionLog
    * @return bool
    */
-  public function createActionLog($type, $content)
+  public function createActionLog($type,$model, $content)
   {
     $actionLog = new \Dreamfishers\SystemActionLog\Models\SystemActionLog();
     if ( auth()->check() ) {
@@ -37,6 +37,7 @@ class ActionLogRepository
     $actionLog->url = request()->getRequestUri();
     $actionLog->ip = request()->getClientIp();
     $actionLog->type = $type;
+    $actionLog->model = $model;
     $actionLog->content = $content;
     $res = $actionLog->save();
 

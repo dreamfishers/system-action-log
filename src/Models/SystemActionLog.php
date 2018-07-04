@@ -9,5 +9,6 @@ class SystemActionLog extends Model
 
   protected $table = "system_action_log";
 
-  protected $fillable = ['uid', 'username', 'type', 'ip', 'content'];
+  protected $fillable = ['uid', 'username', 'type','', 'ip', 'content'];
 }
+model
